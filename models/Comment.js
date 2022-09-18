@@ -18,10 +18,6 @@ Comment.init(
         len: [1],
       },
     },
-    review: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
     user_id: {
       type: DataTypes.INTEGER,
       references: {
