@@ -11,6 +11,7 @@ router.get("/", (req, res) => {
       "id",
       "post_url",
       "title",
+      "review",
       "created_at",
       [
         sequelize.literal(
@@ -50,6 +51,7 @@ router.get("/:id", (req, res) => {
       "id",
       "post_url",
       "title",
+      "review",
       "created_at",
       [
         sequelize.literal(
@@ -118,7 +120,11 @@ router.put("/:id", withAuth, (req, res) => {
   Post.update(
     {
       title: req.body.title,
-    },
+      post_url: req.body.post_url,
+      review: req.body.review,
+      user_id: req.session.user_id,
+      
+    },console.log(req.body),
     {
       where: {
         id: req.params.id,
