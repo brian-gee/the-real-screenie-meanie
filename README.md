@@ -8,6 +8,7 @@ We put all the movies you watched into your profile.  You can tell your friends 
 
 - [@brian-gee](https://www.github.com/brian-gee)
 - [@Berserk9000](https://www.github.com/Berserk9000)
+- [@ScoBoFoSho](https://www.github.com/ScoBoFoSho)
 - [@devihall](https://www.github.com/devihall)
 
 
