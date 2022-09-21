@@ -13,13 +13,13 @@ body, html {
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: #ffffff;
   font-weight: bold;
   transition: color .1s;
 }
 
 a:hover {
-  color: #3486eb;
+  color: #92c2fc;
 }
 
 .mask-custom {
@@ -103,7 +103,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: #ffffff;
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
@@ -112,7 +112,7 @@ main {
 
 .btn-no-style:hover {
   background: none;
-  color: #3486eb;
+  color: #92c2fc;
 }
 
 .delete-post-btn {
@@ -129,7 +129,7 @@ main {
 }
 
 .dash-post {
-  color:#d41414
+  color:#92c2fc;
 }
 
 .post .title span {
@@ -191,6 +191,6 @@ footer {
   padding: 3%;
   font-size: 110%;
   background-image: url('https://www.refinery29.com/images/9556999.jpg?crop=40:21');
-  margin: left 0px;;
-  margin: right 0px;;
+  margin: left 0px;
+  margin: right 0px;
 }
