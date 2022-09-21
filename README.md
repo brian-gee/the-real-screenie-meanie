@@ -38,19 +38,19 @@ add screenshots here
 Clone the project
 
 ```bash
-  git clone git@github.com:brian-gee/the-real-screenie-meanie.git
+git clone git@github.com:brian-gee/the-real-screenie-meanie.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd the-real-screenie-meanie
+cd the-real-screenie-meanie
 ```
 
 Install dependencies
 
 ```bash
-  npm install
+npm install
 ```
 
 Create the .env file
@@ -74,7 +74,7 @@ npm run seeds
 Start the server
 
 ```bash
-  npm start
+npm start
 ```
 
 
