@@ -103,6 +103,7 @@ router.post("/", withAuth, (req, res) => {
     });
 });
 
+
 router.put("/upvote", withAuth, (req, res) => {
   // custom static method created in models/Post.js
   Post.upvote(
