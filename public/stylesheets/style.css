@@ -7,7 +7,8 @@ body, html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: #333;
+  color: rgb(197, 197, 197);
+  background-color: #333;
 }
 
 a {
@@ -21,8 +22,13 @@ a:hover {
   color: #3486eb;
 }
 
+.mask-custom {
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 button {
-  background-color: #225ca3;
+  background-color: #487dbe;
   border: 0;
   padding: 1%;
   color: white;
@@ -33,7 +39,7 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: #63a9ff;
 }
 
 .post-list {
@@ -122,6 +128,10 @@ main {
   line-height: 150%;
 }
 
+.dash-post {
+  color:#d41414
+}
+
 .post .title span {
   font-style: italic;
   font-size: 90%;
@@ -152,13 +162,18 @@ main {
 }
 
 .comment:nth-child(odd) {
-  background-color: #fff5eb;
+  background-color: #b40505;
+}
+
+.comment:nth-child(even) {
+  background-color: rgb(74, 4, 4);
 }
 
 .comment .meta {
   font-size: 90%;
   margin-bottom: .5%;
   opacity: .6;
+  color:#cacaca
 }
 
 .new-post-form input {
@@ -170,9 +185,12 @@ main {
 }
 
 footer {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid rgb(153, 0, 0);
   display: flex;
   justify-content: center;
-  padding: 1%;
+  padding: 3%;
   font-size: 110%;
+  background-image: url('https://www.refinery29.com/images/9556999.jpg?crop=40:21');
+  margin: left 0px;;
+  margin: right 0px;;
 }

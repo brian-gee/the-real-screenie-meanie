@@ -4,15 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Just Tech News</title>
+  <title>Screen Meanie</title>
+  <link rel="shortcut icon" href="../layouts/favicon-movie.jfif" />
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
 <body>
-  <div class="wrapper">
+  
     <header>
       <h1>
-        <a href="/">Just Tech News</a>
+        <a href="/">Screen Meanie</a>
       </h1>
       <nav>
         {{#if loggedIn}}
@@ -24,12 +25,15 @@
       </nav>
     </header>
     <main>
+    
       {{{ body }}}
+      
     </main>
-    <footer>
-      Thanks for visiting!
-    </footer>
-  </div>
+  
+  <footer class="dash-post">
+      <span style='font-size:100px;'>&#128127;</span>
+  </footer>
+
   
   {{#if loggedIn}}
   <script src="/javascript/logout.js"></script>
