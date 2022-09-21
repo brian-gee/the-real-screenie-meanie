@@ -161,13 +161,13 @@ main {
   margin-bottom: 1%;
 }
 
-.comment:nth-child(odd) {
+/* .comment:nth-child(odd) {
   background-color: #b40505;
 }
 
 .comment:nth-child(even) {
   background-color: rgb(74, 4, 4);
-}
+} */
 
 .comment .meta {
   font-size: 90%;
