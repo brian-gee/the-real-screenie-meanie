@@ -162,7 +162,11 @@ main {
 }
 
 .comment:nth-child(odd) {
-  background-color: #fff5eb;
+  background-color: #b40505;
+}
+
+.comment:nth-child(even) {
+  background-color: rgb(74, 4, 4);
 }
 
 .comment .meta {
@@ -184,7 +188,9 @@ footer {
   border-top: 1px solid rgb(153, 0, 0);
   display: flex;
   justify-content: center;
-  padding: 1%;
+  padding: 3%;
   font-size: 110%;
   background-image: url('https://www.refinery29.com/images/9556999.jpg?crop=40:21');
+  margin: left 0px;;
+  margin: right 0px;;
 }
