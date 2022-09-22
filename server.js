@@ -19,11 +19,11 @@ const sess = {
   })
 };
 
-cloudinary.config({
-  cloud_name: "dmvmvcdgx",
-  api_key: "844217323428661",
-  api_secret: "via_zeE_UpOnSab8Cv-dHRkY-kk",
-});
+// cloudinary.config({
+//   cloud_name: "dmvmvcdgx",
+//   api_key: "844217323428661",
+//   api_secret: "via_zeE_UpOnSab8Cv-dHRkY-kk",
+// });
 
 
 app.use(session(sess));
