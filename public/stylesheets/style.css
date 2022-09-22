@@ -7,11 +7,7 @@ body, html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-<<<<<<< HEAD
-  /* color: rgb(197, 197, 197); */
-=======
   color: rgb(197, 197, 197);
->>>>>>> development
   background-color: #333;
 }
 
@@ -140,11 +136,7 @@ main {
 }
 
 .dash-post {
-<<<<<<< HEAD
-  color:#d41414
-=======
   color:#92c2fc;
->>>>>>> development
 }
 
 .post .title span {
