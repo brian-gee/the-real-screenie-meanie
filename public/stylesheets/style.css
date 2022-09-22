@@ -191,11 +191,14 @@ main {
 
 footer {
   border-top: 1px solid rgb(153, 0, 0);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   display: flex;
   justify-content: center;
   padding: 3%;
-  font-size: 110%;
   background-image: url('https://www.refinery29.com/images/9556999.jpg?crop=40:21');
+  background-size: 50%;
   margin: left 0px;
   margin: right 0px;
 }
