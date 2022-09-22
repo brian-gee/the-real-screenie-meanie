@@ -1,8 +1,8 @@
 # Screenie Meanie
 
-Saw a movie recently and want to sound-off? Screenie Meanie is a platform where you can tell us about movies you hate to love or love to hate! 
+Saw a movie recently and want to sound-off? Screenie Meanie is a platform where you can tell us about movies you hate to love or love to hate!
 
-We put all the movies you watched into your profile.  You can tell your friends how you really feel about movies you watched, link to it and a movie poster, and upvote and comment on friends reviews.  
+We put all the movies you watched into your profile.  You can tell your friends how you really feel about movies you watched, link to it and a movie poster, and upvote and comment on friends reviews.
 
 ## Authors
 
@@ -25,7 +25,7 @@ We put all the movies you watched into your profile.  You can tell your friends 
 
 ## Demo
 
-#### Video 
+#### Video
 video link goes here
 #### GIF
 maybe add a gif of demo
@@ -38,25 +38,43 @@ add screenshots here
 Clone the project
 
 ```bash
-  git clone https://github.com/brian-gee/the-real-screenie-meanie
+git clone git@github.com:brian-gee/the-real-screenie-meanie.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+cd the-real-screenie-meanie
 ```
 
 Install dependencies
 
 ```bash
-  npm install
+npm install
+```
+
+Create the .env file
+
+```bash
+mv .env.example .env
+```
+
+Create the database
+
+```mysql
+SOURCE ./db/schema.sql
+```
+
+Seed the database
+
+```bash
+npm run seeds
 ```
 
 Start the server
 
 ```bash
-  npm start
+npm start
 ```
 
 
