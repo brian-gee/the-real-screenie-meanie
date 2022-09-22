@@ -1,13 +1,14 @@
 {{> post-info post}}
 
-<div>
-    <h1>User Review</h1>
-    <h3>{{post.review}}</h3>
+<div id="review-div">
+    <h1 id="review-title">User Review</h1>
+    <h3 id="review-text">{{post.review}}</h3>
   </div>
 
 {{#if loggedIn}}
 <form class="comment-form">
   <div>
+    <h3>Comment as {{post.user.username}}</h3>
     <textarea name="comment-body"></textarea>
   </div>
 
