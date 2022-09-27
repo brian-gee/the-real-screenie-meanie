@@ -29,6 +29,11 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.mask-custom {
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 button {
   background-color: #487dbe;
   border: 0;
@@ -163,8 +168,17 @@ main {
   margin-bottom: 1%;
 }
 
+<<<<<<< HEAD
+.comment:nth-child(odd) {
+  background-color: #b40505;
+}
+
+.comment:nth-child(even) {
+  background-color: rgb(74, 4, 4);
+=======
 /* .comment:nth-child(odd) {
   background-color: #b40505;
+>>>>>>> development
 }
 
 .comment:nth-child(even) {
@@ -203,6 +217,16 @@ main {
 
 
 footer {
+<<<<<<< HEAD
+  border-top: 1px solid rgb(153, 0, 0);
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+  font-size: 110%;
+  background-image: url('https://www.refinery29.com/images/9556999.jpg?crop=40:21');
+  margin: left 0px;;
+  margin: right 0px;;
+=======
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -213,4 +237,5 @@ footer {
   background-size: 50%;
   margin: left 0px;
   margin: right 0px;
+>>>>>>> development
 }
